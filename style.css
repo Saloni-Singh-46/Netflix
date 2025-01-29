@@ -1,0 +1,82 @@
+*{
+    background-color: black;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.sliders{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#box{
+    font-weight: 900;
+    font:bolder;
+    font-style: normal;
+    font-size:150px;
+   color: red;
+   text-shadow: 0px 0px 20px rgb(231, 8, 8);
+   background-image: url(/image/840_560.webp);
+}
+.heading{
+    font-style:inherit;
+    font-size: 30px;
+    color: red;
+}
+.images{
+    flex: 0cap;
+    transition: ease-out;
+    transform: rotate3d(180);
+}
+
+ h2{
+    color: red;
+    font-size: 30px;
+ }
+.img1{
+    background-color: black;
+    filter:drop-shadow(10px 7px 10px grey);
+}
+.img2{
+    filter:drop-shadow(10px 7px 10px yellow);
+}
+.img3{
+    filter:drop-shadow(10px 7px 10px white);
+}
+.img4{
+    filter:drop-shadow(10px 7px 10px grey);
+}
+.img5{
+    filter:drop-shadow(10px 7px 10px orange);
+}
+ 
+ul{
+    background-color: red;
+    color: white
+    
+}
+nav{
+    background-color: red;
+    font-family: cursive;
+   color: azure;
+ font-size: 20px;
+}
+button{
+   font-size: 15px;
+   background-color: white;
+}
+#a1{
+    color:red;
+    background-color: white;
+    text-align:right;
+}
+#a2{
+    text-align: left;
+}
+#a3{
+    text-align: center;
+}
+#a4{
+    text-align: right;
+}
